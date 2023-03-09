@@ -18,7 +18,7 @@ class Validations {
 
   static String? validatePassword(String? value) {
     if (value!.isEmpty || value.length < 6) {
-      return 'Please enter a valid password.';
+      return 'Password must be upto 6 .';
     }
   }
 }
